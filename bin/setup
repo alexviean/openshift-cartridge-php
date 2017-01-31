@@ -7,7 +7,7 @@ source "${OPENSHIFT_PHP_DIR}/lib/setup_util.sh"
 # Archive/LFS configuration
 declare -a ARCHIVE_SERVERS
 ARCHIVE_SERVERS=( "http://download-bcartridges.rhcloud.com/php" )
-LFS_ENDPOINT=https://github.com/boekkooi/openshift-cartridge-php.git/info/lfs
+LFS_ENDPOINT=https://github.com/alexviean/openshift-cartridge-php.git/info/lfs
 
 # Resolve version
 case "$1" in
