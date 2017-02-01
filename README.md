@@ -72,7 +72,7 @@ To use your own fork make sure you change `LFS_ENDPOINT` in `openshift-cartridge
 ```BASH
 rhc cartridge add -a myapp http://cartreflect-claytondev.rhcloud.com/github/<user>/openshift-cartridge-php
 ```
-Remember to delete DWARF sections in php php-cgi phpdgb php-fpm nginx:
+### Remember to delete DWARF sections in php php-cgi phpdgb php-fpm nginx:
 ```BASH
 objcopy --strip-debug file_name
 ```
