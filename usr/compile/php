@@ -29,7 +29,6 @@ function install_php() {
         --with-curl \
         --with-zlib \
         --with-mhash \
-        --with-mysql \
         --with-pgsql \
         --with-mysqli \
         --with-pdo-mysql \
@@ -49,6 +48,7 @@ function install_php() {
         --with-freetype-dir \
         --without-pear \
         --disable-debug \
+        --disable-fileinfo \
         --enable-gd-native-ttf \
         --enable-fpm \
         --enable-cli \
